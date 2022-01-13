@@ -1,0 +1,32 @@
+{
+  "name": "recipetracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N-Deepika/RecipeTracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N-Deepika/RecipeTracker/issues"
+  },
+  "homepage": "https://github.com/N-Deepika/RecipeTracker#readme",
+  "dependencies": {
+    "dompurify": "^2.3.4",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-fileupload": "^1.2.1",
+    "imgur": "^2.1.0",
+    "jsdom": "^19.0.0",
+    "marked": "^4.0.10",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.1.6",
+    "slugify": "^1.6.5",
+    "tslib": "^2.3.1"
+  }
+}

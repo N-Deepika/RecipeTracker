@@ -1,0 +1,33 @@
+<div class="form-group">
+    <label for="title">Title</label>
+    <input required value="<%= article.title %>" type="text" name="title" id="title" class="form-control">
+</div>
+<!--<div class="form-group">-->
+<!--    <form ref='uploadForm' id='uploadForm' action='/upload' method='post' encType="multipart/form-data">-->
+
+<!--        <div class="file">-->
+<!--            <label class="file-label">-->
+<!--                <input class="file-input" type="file" name="sampleFile">-->
+
+<!--                <span class="file-cta">-->
+<!--                                        <span class="file-label">-->
+<!--                                            Choose a file and upload it-->
+<!--                                        </span>-->
+<!--                                        </span>-->
+<!--            </label>-->
+<!--        </div>-->
+<!--        <input type='submit' value='Upload!' class="button is-link mt-3" />-->
+
+<!--    </form>-->
+<!--</div>-->
+<div class="form-group">
+    <label for="description">Ingredients</label>
+    <textarea name="description" id="description" class="form-control"><%= article.description %></textarea>
+</div>
+<div class="form-group">
+    <label for="markdown">Instruction</label>
+    <textarea required name="markdown" id="markdown" class="form-control"><%= article.markdown %></textarea>
+</div>
+
+<a href="/" class="btn btn-secondary">Cancel</a>
+<button type="submit" class="btn btn-primary">Save</button>
